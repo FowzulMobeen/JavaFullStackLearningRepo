@@ -1,0 +1,33 @@
+* {
+    margin: 5px;
+    padding: 10px;
+}
+H1 {
+    text-decoration-line: overline;
+    text-decoration-color: blue;
+    text-shadow: 5px 4px 4px blue;
+    margin: 0px;
+    padding: 0px;
+}
+H2 {
+    text-decoration-line: line-through;
+    text-decoration-style: double;
+}
+h3 {
+    text-decoration-line: underline;
+}
+
+/* This is for text Transformation */
+
+p.uppercase {
+    text-transform: uppercase;
+    font-family: 'Calibri'
+}
+p.lowercase {
+    text-transform: lowercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+p.capitalize {
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

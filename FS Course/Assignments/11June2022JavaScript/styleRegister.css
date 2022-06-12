@@ -1,0 +1,22 @@
+label{
+    border-style: solid;
+    border-width: thick;
+    border-color: blueviolet;
+   
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px;
+    text-align: center;
+    
+    
+}
+body{
+    background-color: aqua;
+}
+input
+{
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px;
+    text-align: center;
+    border-style: solid;
+    
+}

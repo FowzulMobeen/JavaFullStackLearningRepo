@@ -1,0 +1,9 @@
+body{
+    background-image: url('Images/html-illustration.png');
+    background-color: red;
+    background-repeat: no-repeat;  
+    background-attachment: scroll;
+    background-position: left;
+    background-size: auto;
+    background-origin: content-box;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegisterUser</title>
+    
+    <link rel="stylesheet" href="bootstrap.min.css">
+    
+</head>
+<body>
+   <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+            <label>EmailId</label> 
+            </div>
+            <div class="col-sm-4">
+                 <input type="email" id="emId">
+            </div>
+            
+        </div>
+        <div class="row">
+            
+            <div class="col-sm-4">
+                <label>Name</label>
+            </div>
+            <div class="col-sm-4">
+                 <input type="text" id="name">
+            </div>
+            
+        </div>
+        <div class="row">
+           
+            <div class="col-sm-4">
+                <label>Password</label>
+                 
+            </div>
+            <div class="col-sm-4">
+                 <input type="password" id="password">
+            </div>
+
+        </div>
+        <div class="row">
+          
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <button  class="btn btn-primary btn-block" onclick="display()">Register</button>
+            </div>
+           
+        </div>
+        <div class="row">
+            <div class="col-sm-8">
+                <br>
+                <div id="display" class="bg-success"></div>
+                <br>
+            </div>
+        </div>
+   </div>
+    <script src="details.js"></script>
+    <link rel="stylesheet" href="styleRegister.css">
+</body>
+</html>
